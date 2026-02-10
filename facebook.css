@@ -1,0 +1,131 @@
+.left{
+    width:99vh;
+    height:50vw;
+    float:left;
+    box-sizing:border-box;
+    background-color:rgba(195, 190, 190, 0.247);
+}
+.left .paragraph{
+    color:blue;
+    position: absolute;
+    left:38vh;
+    top:10vw;
+    font-size:42px;
+    font-weight: 600;
+}
+.left .paragraph2{
+    position: absolute;
+    left:38vh;
+    top:15vw;
+    font-size:26px;
+}
+.right{
+    width:98vh;
+    height:50vw;
+    float:left;
+    box-sizing: border-box;
+    background-color:rgba(195, 190, 190, 0.247);
+}
+.right .box{
+    width:330px;
+    height:270px;
+    background-color: white;
+    position: absolute;
+    top:150px;
+    left:900px;
+}
+.right .text{
+    width:275px;
+    height: 2px;
+    padding:17px;
+    margin:7px 0;
+    position: absolute;
+    top: 155px;
+    left:910px;
+    border-radius: 3px;
+    opacity:0.4;
+    input:focus{outline: 1px solid red;}
+}
+.right .text:hover{
+    border-color:blue;
+}
+.right .text::placeholder{
+    color:#000000;
+    opacity:1;
+}
+.right .password{
+    width:275px;
+    height: 2px;
+    padding:17px;
+    margin:7px 0;
+    position: absolute;
+    top: 200px;
+    left:910px;
+    border-radius: 3px;
+    opacity:0.4;
+}
+.right .password:hover{
+    border-color:blue;
+}
+.right .button{
+    width: 23.4em;
+    height: 38px;
+    padding:17px;
+    margin:7px 0;
+    position: absolute;
+    top: 250px;
+    left:910px;
+    background-color: blue;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    line-height: 7px;
+}
+.right .button:active{
+    transform: scale(0.96);
+}
+.right .forget{
+    width: 275px;
+    height: 38px;
+    padding:17px;
+    margin:7px 0;
+    position: absolute;
+    top: 287px;
+    left:980px;
+    color:blue;
+}
+.right .forget:active{
+    transform: scale(0.96);
+}
+.right .line{
+   border-bottom:1px solid #ccc;
+   width: 300px;
+   height: 38px;
+   position: absolute;
+   top: 300px;
+   left:919px;
+
+}
+.right .account{
+    width: 4cm;
+    height: 38px;
+    padding:17px;
+    margin:7px 0;
+    position: absolute;
+    top: 360px;
+    left:999px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(58, 177, 58);
+    line-height: 7px;
+    color: white;
+}
+.right .account:active{
+    transform: scale(0.96);
+}
+.right .small{
+    position: absolute;
+    top:430px;
+    left:65%;
+    font-size:12px;
+}
